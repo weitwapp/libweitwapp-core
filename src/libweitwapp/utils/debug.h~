@@ -1,0 +1,30 @@
+// debug.h
+
+/*
+ * Quelle für Makro:
+ * https://stackoverflow.com/questions/1941307/debug-print-macro-in-c
+ * Vgl. Unterschiede unter #else
+ */
+
+#ifndef __LIBWEITWAPP_DEBUG_H__
+#define __LIBWEITWAPP_DEBUG_H__
+#define LIBWEITWAPP_DEBUG // ENH: Mache per Cmake oder anders einstellbar
+
+#ifdef LIBWEITWAPP_DEBUG
+	#define LIBWEITWAPP_DEBUG_PRINT(fmt, args...) fprintf(stderr, "DEBUG: %s:%d:%s(): " fmt, __FILE__, __LINE__, __func__, ##args)
+#else
+	#define LIBWEITWAPP_DEBUG_PRINT(fmt, args...) /* Don't do anything in release builds */
+#endif
+
+#endif // __LIBWEITWAPP_DEBUG_H__
+
+/*
+#ifdef DEBUG
+#define WEITWAPP_DEBUG_PRINT(...) fprintf( stderr, __VA_ARGS__ )
+#else
+#define WEITWAPP_DEBUG_PRINT(...) do{ } while ( 0 )
+#endif
+*/
+
+
+    
