@@ -8,7 +8,11 @@ One among others:
 \<project\>
 |- include
 |- src
+<<<<<<< HEAD
+````
+=======
 ```
+>>>>>>> e26a78f (Update d20260914.md)
 
 [REQ202503102209] - Canonical Project Structure  
 A project may follow the [Canonical Project Structure](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1204r0.html).
