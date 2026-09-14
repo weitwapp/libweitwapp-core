@@ -9,5 +9,5 @@ A unique identifier (id) with the format: **YYYYMMDDHHMM**
 **REF\<id\>**  
 A reference element, e.g. document, note etc.
 
-**REQ\<id\>**    
+**REQ\<id\>** or **r\<id\>**   
 A requirement
