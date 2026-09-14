@@ -1,2 +1,2 @@
 # libweitwapp
-a library for µc as a result of self-learning
+A library for µc as a result of self-learning
