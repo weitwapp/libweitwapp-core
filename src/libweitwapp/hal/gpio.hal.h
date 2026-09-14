@@ -1,16 +1,14 @@
 // gpio.hal.h
 
+//TODO: Add support for internal pull-up resistors
 
 #ifndef __LIBWEITWAPP_HAL_GPIO_H__
 #define __LIBWEITWAPP_HAL_GPIO_H__
 
-//#ifdef LIBWEITWAPP_HAL_PICO_SDK
     #define LIBWEITWAPP_HAL_GPIO_HIGH 1
 	#define LIBWEITWAPP_HAL_GPIO_LOW 0
 	#define LIBWEITWAPP_HAL_GPIO_DIRECTION_OUT 1 //ENH: Prüfe Wert gegen pico-sdk!
 	#define LIBWEITWAPP_HAL_GPIO_DIRECTION_IN  0 //ENH: Prüfe Wert gegen pico-sdk!
-//#endif // LIBWEITWAPP_HAL_PICO_SDK
-// ENH: Die obigrn Werte sind i.d.R. auch abhängig von der gewählten Hardware
 
 #ifdef __cplusplus
 extern "C" {
