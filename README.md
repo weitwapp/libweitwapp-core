@@ -13,3 +13,6 @@ This project uses the following third-party software components as external depe
 - Raspberry Pi Pico SDK — BSD 3-Clause License
 
 These third-party components are provided by their respective authors and are not included or modified in this repository, see [LICENSE](LICENSE).
+
+# Further readings
+- [Canonical projects structure](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1204r0.html) [r202503102209]
