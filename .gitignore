@@ -1,2 +1,4 @@
 libweitwapp-core.code-workspace
 *~
+.pio
+.vscode
