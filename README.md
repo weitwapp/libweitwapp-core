@@ -1,6 +1,6 @@
 # libweitwapp
 A library for µc as a result of self-learning.
-Yes, I know some things are to much.
+Yes, I know some things are to much ;)
 
 
 # License
