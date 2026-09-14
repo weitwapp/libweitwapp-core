@@ -2,6 +2,8 @@
 A library for µc as a result of self-learning.
 Yes, I know some things are to much ;)
 
+## Features
+- A HAL for Arduino and Raspberry Pico Pi (outlook) based on the standard libraries;  others may follow
 
 # License
 
