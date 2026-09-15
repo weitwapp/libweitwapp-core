@@ -5,6 +5,9 @@ Yes, I know some things are to much ;)
 ## Features
 - A HAL for Arduino and Raspberry Pico Pi (outlook) based on the standard libraries;  others may follow
 
+## Build
+To be provided to the compiler, e.g. with -D option:
+- LIBWEITWAPP_HAL_BUILD_ARDUINO
 # License
 
 The source code of this project is licensed under the MIT License.
